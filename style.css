@@ -1,0 +1,48 @@
+.abrirmodal:hover{
+    cursor: pointer;
+}
+
+
+.checkboxmodal{
+    display: none;
+}
+
+
+#modalexemplo:checked + .modal {
+    display: flex;
+}
+
+
+.modal{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0. 5);
+}
+
+.modal .fecharmodal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.modal .fecharmodal:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.modal .conteudomodal{
+    width: 50%;
+    height: 30%;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 15px black;
+    overflow: auto;
+}
+
+
+
